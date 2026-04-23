@@ -168,3 +168,4 @@ POST /api/predict/risk
 - `backend/models/*.pkl` is gitignored — models auto-regenerate on backend startup
 - `frontend/.env` is gitignored — copy `.env.example` to `.env` for local dev
 - Vite proxy is configured to forward `/api/*` to Render in local dev (no CORS issues)
+---
